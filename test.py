@@ -21,7 +21,7 @@ while jawab == 'y':
         nHuruf = 'E'
     else:
         nHuruf = 'Angka yang dimasukkan tidak Valid'
-    print(f'Nilai {nAngka} = {nHuruf}')100
+    print(f'Nilai {nAngka} = {nHuruf}')
     print('Ulangi lagi (y/n) ? ')
     jawab = input()
 

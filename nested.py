@@ -22,6 +22,12 @@ while jawab == 'y':
     else:
         nHuruf = 'Angka yang dimasukkan tidak Valid'
     print(f'Nilai {nAngka} = {nHuruf}')
-    print('Ulangi lagi (y/n) ? ')
-    jawab = input()
+    # print('Ulangi lagi (y/n) ? ')
+    # jawab = input()
 
+    bil = 0
+    for i in range(nAngka):
+        bil += 1
+        bil = bil + i
+    print(str(f'Hasil {bil}'))
+    break

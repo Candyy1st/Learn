@@ -1,10 +1,9 @@
 import random
 
-number = random.randint(1,6)
-
-x = 'y' \
+x = 'y'
 
 while x == 'y':
+    number = random.randint(1, 6)
     if number == 1:
         print('_________')
         print('|       |')

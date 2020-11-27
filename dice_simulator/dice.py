@@ -1,5 +1,5 @@
 import random
-
+print('Dice Simulator')
 x = 'y'
 
 while x == 'y':

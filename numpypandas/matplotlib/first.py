@@ -12,11 +12,15 @@ plt.ylabel('y-axis')
 plt.title('Testing Matplotlib')
 
 b = plt.subplot(3,2,1)
-plt.plot(x,x)       #line
+plt.plot(x,x, label='example')       #line
 plt.title('Line')
+plt.legend(loc=8)                        #add .legend to show label
+
 c = plt.subplot(3,2,2)
-plt.scatter(x,z)    #dot
+plt.scatter(x,z, label='more')    #dot
 plt.title('Dot')
+plt.legend()
+
 d = plt.subplot(3,2,3)
 plt.hist(x,y)       #histogram
 plt.title('Histogram')
@@ -26,13 +30,10 @@ plt.title('Bar Graph')
 f = plt.subplot(3,2,5)
 plt.fill(x,y)
 plt.title('Fill')
-g = plt.subplot(3,2,6)
-plt.polar(x,y)
-plt.title('Polar')
 plt.tight_layout()
+
 print(b)
 print(c)
 print(d)
 print(e)
 print(f)
-print(g)
